@@ -24,7 +24,10 @@ class NetworkApiServices extends BaseApiServices {
   Future postApi(String url, data) async {
     dynamic responseJson;
     try {
-      final response = await http.post(Uri.parse(url), body: data);
+      final response = await http.post(Uri.parse(url), body: jsonEncode(data), headers: {
+        "Content-Type": "application/json"
+      });
+      print("====================${response.body}");
       responseJson = jsonDecode(response.body);
       return responseJson;
     }

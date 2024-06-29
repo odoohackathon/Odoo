@@ -47,6 +47,10 @@ dependencies:
   google_maps_flutter:
   geolocator:
   modal_progress_hud_nsn:
+  firebase_core:
+  google_sign_in:
+  firebase_auth:
+  cached_network_image:
 
 dev_dependencies:
   flutter_test:

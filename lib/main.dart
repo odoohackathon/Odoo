@@ -40,7 +40,7 @@ class MyApp extends StatelessWidget {
           ),
           defaultTransition: Transition.rightToLeft,
           transitionDuration: Duration(milliseconds: 300),
-          initialRoute: RoutesName.loginScreen,
+          initialRoute: RoutesName.viewCrimeReportScreen,
           getPages: Routes.appRoutes(),
         );
       },

@@ -7,7 +7,9 @@ class RoutesName
   static const String userHomeScreen = "/user_home_screen";
   static const String policeHomeScreen = "/police_home_screen";
   static const String addCrimeReportScreen = "/add_crime_report_screen";
-  static const String viewCrimeReportScreen = "/add_crime_report_screen";
+  static const String checkReportScreen = "/add_crime_report_screen";
+  static const String resolveReportScreen = "/add_crime_report_screen";
+  static const String viewCrimeReportScreen = "/view_crime_report_screen";
   static const String mapScreen = "/map_screen";
 
 }
